@@ -27,7 +27,8 @@ public class StartDriver {
 	 */
 	public static void initializeWeb_Driver()
 			throws IOException, ParseException, org.json.simple.parser.ParseException, InterruptedException {
-		String browser = DataReader.getParameterString("browser", "environment");
+		String browser = "chrome";
+		//DataReader.getParameterString("browser", "environment");
 		if ((browser.equalsIgnoreCase("chrome"))) {
 			WebDriverManager.chromedriver().setup();
 			
