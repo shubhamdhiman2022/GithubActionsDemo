@@ -47,6 +47,9 @@ public class StartDriver {
 			options.setExperimentalOption("excludeSwitches",
 				    Arrays.asList("disable-popup-blocking"));
 			options.addArguments("--remote-allow-origins=*");
+			options.add_argument('--disable-dev-shm-usage')
+			options.add_argument('--ignore-ssl-errors=yes')
+			options.add_argument('--ignore-certificate-errors')
 			options.setExperimentalOption("prefs", preferences);
 			//For headless mode
 			//options.addArguments("--headless", "--disable-gpu", "--window-size=1920,1200","--ignore-certificate-errors","--disable-extensions","--no-sandbox","--disable-dev-shm-usage");
