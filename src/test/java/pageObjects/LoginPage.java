@@ -67,8 +67,7 @@ public class LoginPage{
 	
 	public void navigateToGoogle() throws Exception
 	{
-		//getParameterString("UatUrl", "environment")
-		driver.get("https://www.google.com/");
+		driver.get(getParameterString("UatUrl", "environment"));
 		log.info("Navigated to google");
 	}
 }
