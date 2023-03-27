@@ -39,6 +39,6 @@ private static Logger log = LoggerHelper.getLogger(TestRunner.class);
 	@AfterClass
 	public static void endPoint() {
 		log.info("Execution Ends at: " +Utils.getCurrentDateTime());
-		//closeDriver();
+		closeDriver();
 	}
 }

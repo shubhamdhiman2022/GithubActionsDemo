@@ -48,7 +48,7 @@ public class StartDriver {
 			options.addArguments("--remote-allow-origins=*");
 			options.setExperimentalOption("prefs", preferences);
 			//For headless mode
-			options.addArguments("--headless", "--disable-gpu", "--window-size=1920,1200","--ignore-certificate-errors","--disable-extensions","--no-sandbox","--disable-dev-shm-usage");
+			//options.addArguments("--headless", "--disable-gpu", "--window-size=1920,1200","--ignore-certificate-errors","--disable-extensions","--no-sandbox","--disable-dev-shm-usage");
 			DesiredCapabilities caps = new DesiredCapabilities();
 			caps.setAcceptInsecureCerts(true);
 			caps.setCapability(ChromeOptions.CAPABILITY, options);
