@@ -1,0 +1,9 @@
+{
+	"environment": {
+		"browser": "chrome",
+		"UatUrl": "https://www.google.com/",
+		"YopMail": "https://yopmail.com/"
+	},
+	"credentials":{
+	}
+}
